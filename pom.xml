@@ -40,7 +40,7 @@
 	<repository>
 		<id>cicd-repo</id>
 		<name>cicd-repo</name>
-		<url>http://43.204.36.47:8081/repository/cicd-repo/</url>
+		<url>http://13.206.199.209:8081/repository/cicd-repo/</url>
 	</repository>
 </distributionManagement>
 	<build>
