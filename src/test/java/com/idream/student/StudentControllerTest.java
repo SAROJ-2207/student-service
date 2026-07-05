@@ -23,7 +23,7 @@ class StudentControllerTest {
 	@MockBean
 	private StudentRepository studentRepository;
 
-	//@Test
+	@Test
 	void shouldReturnAllStudents() throws Exception {
 
 		Student s1 = new Student(1L, "Rahul Kumar", "rahul@gmail.com", 101L);
