@@ -40,7 +40,7 @@
 	<repository>
 		<id>student-service-nexus</id>
 		<name>student-service-nexus</name>
-		<url>http://13.233.37.70:8081/repository/student-service-nexus/</url>
+		<url>http://13.203.157.205:8081/repository/student-service-nexus/</url>
 	</repository>
 </distributionManagement> 
 	<build>
