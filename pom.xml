@@ -42,7 +42,8 @@
 			<url>http://13.203.157.205:8081/repository/student-service-nexus/</url>
 	</repository>
 </distributionManagement> 
-	<build>
+	
+	<!-- <build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
@@ -58,5 +59,20 @@
             <version>3.11.0.3922</version> <!-- Use the latest compatible version -->
         </plugin>
     </plugins>
-</build>
+</build> -->
+	
+<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.sonarsource.scanner.maven</groupId>
+				<artifactId>sonar-maven-plugin</artifactId>
+				<version>3.11.0.3922</version>
+			</plugin>
+		</plugins>
+	</build>
+	
 </project>
